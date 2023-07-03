@@ -1,0 +1,54 @@
+.graphs-outer-div{
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+.graphs-header{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    color: #cb2bcb;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 80%;
+}
+.graphs-outer{
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.graphs-subheader{
+color: white;
+}
+.graphs-options{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+.graphs-options:hover{
+    box-shadow: 0px 0px 8px gray;
+    transform: translateY(-5px);
+}
+.graphs-image{
+    width: 100%;
+}
+.graphs-name{
+    font-size: 20px;
+    color: #6117b4;
+    font-weight: 600;
+}
+.graphs-subheader{
+    font-size: 1.5rem;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-weight: 700;
+}

@@ -1,0 +1,16 @@
+#chart{
+    padding: 35px;
+    background-color: white;
+    position: relative;
+    top: 35px;
+    height: 350px;
+    border-radius: 5px;
+}
+.heatmap-color-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 3px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-outer-div{
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+.home-header{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: #cb2bcb;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.home-upload-div{
+    background-color: white;
+   border-radius: 10px;
+    width: 450px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: -2px 2px 6px 0px black;
+}
+.home-input{
+    width: 80%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.home-submit{
+    width: 100%;
+}
+.guZdik {
+    width: 80%;
+    height: 80px !important;
+    margin: auto !important;
+    margin-top: 25px !important;
+    padding-top: 25px !important;
+    text-align: center !important;
+    z-index: 2;
+}
+.guZdik svg{
+    display: none;
+}
+.jWkLDY{
+    display: none !important;
+}
+.home-upload-text{
+    width: 95%;
+    font-size: 13px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-submit{
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #B126B1, #6117b4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+.home-subtext{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: dimgray;
+    cursor: pointer;
+    font-family: math;
+}
+.progress-div {
+    background-color: transparent;
+    border-radius: .5rem;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: -20px;
+    height: 20px;
+}
+
+.progress {
+  background: #B126B1 !important;
+  height: 10px !important;
+  border-radius: 1rem !important;
+  transition: 1.5s ease;
+  transition-duration: 2s;
+}
+.home-subheader{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 30%;
+    color: white;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.home-upload-text-div{
+    width: 80%;
+    margin: auto;
+    margin-top: -80px;
+    height: 79px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:600px) {
+    .home-header{
+        left: 0px;
+        width: 85%;
+        margin: auto;
+    }
+    .home-upload-div{
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .guZdik{
+        min-width: 230px !important;
+    }
+    .home-submit{
+        width: 87%;
+    }
+    .home-subtext{
+        font-size: 15px;
+        margin-left: 25px;
+        font-family: inherit;
+    }
+    .home-subheader{
+        width: 85%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
