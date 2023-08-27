@@ -40,55 +40,6 @@ export default function Heatmap() {
         text: "HeatMap Chart",
       },
     },
-    // options: {
-    //   chart: {
-    //     height: 350,
-    //     type: 'heatmap',
-    //   },
-    //   plotOptions: {
-    //     heatmap: {
-    //       shadeIntensity: 0.5,
-    //       radius: 0,
-    //       useFillColorAsStroke: true,
-    //       colorScale: {
-    //         ranges: [{
-    //             from: 0,
-    //             to: 1,
-    //             name: 'low',
-    //             color: '#00A100'
-    //           },
-    //           {
-    //             from: 2,
-    //             to: 3,
-    //             name: 'medium',
-    //             color: '#128FD9'
-    //           },
-    //           {
-    //             from: 4,
-    //             to: 5,
-    //             name: 'high',
-    //             color: '#FFB200'
-    //           },
-    //           {
-    //             from: 5,
-    //             to: 6,
-    //             name: 'extreme',
-    //             color: '#FF0000'
-    //           }
-    //         ]
-    //       }
-    //     }
-    //   },
-    //   dataLabels: {
-    //     enabled: false
-    //   },
-    //   stroke: {
-    //     width: 1
-    //   },
-    //   title: {
-    //     text: 'HeatMap Chart with Color Range'
-    //   },
-    // }
   };
   for (let index = 1; index < data.length; index++) {
     var val=[];

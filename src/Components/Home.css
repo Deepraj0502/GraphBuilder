@@ -137,6 +137,12 @@
 .gwDiyc{
     display: none !important;
 }
+#SvgjsG2780{
+    display: none;
+}
+#SvgjsG1766{
+    display: none !important;
+}
 @media (max-width:600px) {
     .home-header{
         left: 0px;
