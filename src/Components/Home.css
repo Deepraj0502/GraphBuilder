@@ -116,6 +116,27 @@
     align-items: center;
     justify-content: center;
 }
+.dtlKip {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 322px;
+    max-width: 410px;
+    height: 100px;
+    border: 2px dashed rgb(6, 88, 194);
+    padding: 8px 16px 8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-flex: 0;
+    margin: 0 auto;
+}
+.dtlKip svg{
+    display: none;
+}
+.gwDiyc{
+    display: none;
+}
 @media (max-width:600px) {
     .home-header{
         left: 0px;
